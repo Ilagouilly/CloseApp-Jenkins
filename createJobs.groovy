@@ -6,17 +6,3 @@ pipelineJob('pipelineJob') {
         }
     }
 }
-pipelineJob('closeapp-job') {
-    definition {
-        cpsScm {
-            scm {
-                git {
-                    remote {
-                        url 'https://github.com/Ilagouilly/closeapp-backend.git'
-                    }
-                    branch 'master'
-                }
-            }
-        }
-    }
-}
