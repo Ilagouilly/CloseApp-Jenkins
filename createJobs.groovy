@@ -12,7 +12,7 @@ pipelineJob('closeapp-job') {
             scm {
                 git {
                     remote {
-                        url 'https://github.com/Ilagouilly/CloseApp-Backend.git'
+                        url 'https://github.com/Ilagouilly/closeapp-backend.git'
                     }
                     branch 'master'
                 }
