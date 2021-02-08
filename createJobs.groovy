@@ -35,3 +35,18 @@ pipelineJob('CloseApp-Backend-Docker') {
         }
     }
 }
+pipelineJob('CloseApp-Backend-Aws') {
+    definition {
+        cpsScm {
+            scm {
+                git {
+                    remote {
+                        url 'https://github.com/Ilagouilly/CloseApp-Backend.git'
+                    }
+                    branch 'master'
+                    scriptPath('Jenkinsfile')
+                }
+            }
+        }
+    }
+}
