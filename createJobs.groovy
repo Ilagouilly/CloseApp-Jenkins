@@ -12,7 +12,7 @@ pipelineJob('CloseApp-Backend') {
             scm {
                 git {
                     remote {
-                        url 'https://github.com/tkgregory/spring-boot-api-example'
+                        url 'https://github.com/Ilagouilly/CloseApp-Backend.git'
                     }
                     branch 'master'
                 }
@@ -26,7 +26,7 @@ pipelineJob('CloseApp-Backend-Docker') {
             scm {
                 git {
                     remote {
-                        url 'https://github.com/tkgregory/spring-boot-api-example'
+                        url 'https://github.com/Ilagouilly/CloseApp-Backend.git'
                     }
                     branch 'master'
                     scriptPath('Jenkinsfile')
@@ -41,10 +41,10 @@ pipelineJob('CloseApp-Backend-Aws') {
             scm {
                 git {
                     remote {
-                        url 'https://github.com/tkgregory/spring-boot-api-example'
+                        url 'https://github.com/Ilagouilly/CloseApp-Backend.git'
                     }
                     branch 'master'
-                    scriptPath('Jenkinsfile-aws')
+                    scriptPath('Jenkinsfile')
                 }
             }
         }
