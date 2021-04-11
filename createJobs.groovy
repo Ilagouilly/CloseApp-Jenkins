@@ -12,9 +12,9 @@ pipelineJob('CloseApp-Backend') {
             scm {
                 git {
                     remote {
-                        url 'https://github.com/Ilagouilly/Java-Spring-Boot-Backend/tree/DevEnvironment_H2_Branch'
+                        url 'https://github.com/Ilagouilly/Java-Spring-Boot-Backend'
                     }
-                    branch 'master'
+                    branch 'DevEnvironment_H2_Branch'
                 }
             }
         }
@@ -26,9 +26,9 @@ pipelineJob('CloseApp-Backend-Docker') {
             scm {
                 git {
                     remote {
-                        url 'https://github.com/Ilagouilly/Java-Spring-Boot-Backend/tree/DevEnvironment_H2_Branch'
+                        url 'https://github.com/Ilagouilly/Java-Spring-Boot-Backend'
                     }
-                    branch 'master'
+                    branch 'DevEnvironment_H2_Branch'
                     scriptPath('Jenkinsfile')
                 }
             }
@@ -41,9 +41,9 @@ pipelineJob('CloseApp-Backend-Aws') {
             scm {
                 git {
                     remote {
-                        url 'https://github.com/Ilagouilly/Java-Spring-Boot-Backend/tree/DevEnvironment_H2_Branch'
+                        url 'https://github.com/Ilagouilly/Java-Spring-Boot-Backend'
                     }
-                    branch 'master'
+                    branch 'DevEnvironment_H2_Branch'
                     scriptPath('Jenkinsfile')
                 }
             }
