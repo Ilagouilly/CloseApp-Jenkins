@@ -40,7 +40,7 @@
 
 3. Jenkins will then be available at
    ```bash
-   docker-compose up --build
+   http://localhost:8080
 
 ## 🤝 Contributing
 
